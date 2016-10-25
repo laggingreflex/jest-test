@@ -1,0 +1,63 @@
+{
+  "testRegex": "(/tests/.*|/src/.*\\.test)\\.js",
+  "rootDir": "C:\\Test\\jest-test",
+  "name": "C:-Test-jest-test",
+  "setupFiles": [],
+  "testRunner": "C:\\Test\\jest-test\\node_modules\\jest-jasmine2\\build\\index.js",
+  "scriptPreprocessor": "C:\\Test\\jest-test\\node_modules\\babel-jest\\build\\index.js",
+  "usesBabelJest": true,
+  "automock": false,
+  "bail": false,
+  "browser": false,
+  "cacheDirectory": "C:\\Users\\x\\AppData\\Local\\Temp\\jest",
+  "clearMocks": false,
+  "coveragePathIgnorePatterns": [
+    "\\\\node_modules\\\\"
+  ],
+  "coverageReporters": [
+    "json",
+    "text",
+    "lcov",
+    "clover"
+  ],
+  "globals": {},
+  "haste": {
+    "providesModuleNodeModules": []
+  },
+  "mocksPattern": "__mocks__",
+  "moduleDirectories": [
+    "node_modules"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "jsx",
+    "node"
+  ],
+  "moduleNameMapper": {},
+  "modulePathIgnorePatterns": [],
+  "noStackTrace": false,
+  "notify": false,
+  "preset": null,
+  "preprocessorIgnorePatterns": [
+    "\\\\node_modules\\\\"
+  ],
+  "resetModules": false,
+  "testEnvironment": "jest-environment-jsdom",
+  "testPathDirs": [
+    "C:\\Test\\jest-test"
+  ],
+  "testPathIgnorePatterns": [
+    "\\\\node_modules\\\\"
+  ],
+  "testURL": "about:blank",
+  "timers": "real",
+  "useStderr": false,
+  "verbose": null,
+  "watch": false,
+  "cache": true,
+  "watchman": true,
+  "testcheckOptions": {
+    "times": 100,
+    "maxSize": 200
+  }
