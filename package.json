@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "jest": "jest --config jest.json",
+    "mocha": "mocha src/**/*.test.js tests/**/*.js"
+  },
+  "dependencies": {
+    "jest": "^16.0.2",
+    "mocha": "^3.1.2"
+  }
+}
